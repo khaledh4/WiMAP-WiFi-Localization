@@ -33,7 +33,11 @@ For each measurement point, the following parameters were recorded:
 - Distance from the Access Point (meters)
 - \(10 \times \log_{10}(d)\) used in the path-loss calculation
 
-RSSI Samples pic
+<p align="left">
+  <img src="Images/RSSI_Samples.png" width="600"/>
+  <br>
+  <em>Figure 1: Collected RSSI measurements at different positions.</em>
+</p>
 
 A total of **15 measurement points** were collected across the room.
 
@@ -45,7 +49,11 @@ After collecting the samples, the measurement points were plotted on the room la
 
 This step helps visualize the distribution of the collected RSSI samples.
 
-Room Mapping pic
+<p align="left">
+  <img src="Images/Room_Mapping.png" width="600">
+  <br>
+  <em>Figure 2: Room layout showing the mapped measurement points where RSSI samples were collected.</em>
+</p>
 
 Each point represents a location where RSSI measurements were taken.
 
@@ -65,11 +73,24 @@ Where:
 
 This model helps describe how signal strength decreases with distance.
 
-Path Loss Model pic
+<p align="left">
+  <img src="Images/Path_Loss.png" width="650">
+  <br>
+  <em>Figure 3: Estimated indoor path loss model derived from the collected RSSI measurements.</em>
+</p>
+
+
+Using this equation, we can compare the predicted RSSI values with the measured RSSI values at different distances.
+
+<p align="left">
+  <img src="Images/RSSI_measured_and_predicted.png" width="650">
+  <br>
+  <em>Figure 4: Comparison between the measured RSSI values and the RSSI values predicted by the path loss model.</em>
+</p>
 
 ---
 
-# 4. WiMAP Localization
+# 4. WiMAP Localization and Estimated Access Point Location
 
 The WiMAP algorithm estimates the Access Point location using the following steps:
 
@@ -84,9 +105,14 @@ y_AP = (Σ yi) / N
 
 Where N is the number of selected sample points.
 
----
+The estimated AP position is shown in the figure below.
 
-# 5. Estimated Access Point Location
+<p align="center">
+  <img src="Images/Estimated_AP_Location.png" width="650">
+  <br>
+  <em>Figure 5: Estimated Access Point location obtained using the WiMAP localization algorithm.</em>
+</p>
+
 
 Using the strongest RSSI samples, the estimated Access Point position was calculated.
 
@@ -94,10 +120,6 @@ Estimated Coordinates:
 
 X = 406.30  
 Y = 668.51
-
-The estimated AP position is shown in the figure below.
-
-Estimated AP Location pic
 
 Due to the limited dataset (15 samples), the estimated location deviates from the true AP position. Increasing the number of samples would improve localization accuracy.
 
