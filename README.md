@@ -34,7 +34,7 @@ For each measurement point, the following parameters were recorded:
 - \(10 \times \log_{10}(d)\) used in the path-loss calculation
 
 <p align="left">
-  <img src="Images/RSSI_Samples.png" width="600"/>
+  <img src="Images/RSSI_Samples.png" width="500"/>
   <br>
   <em>Figure 1: Collected RSSI measurements at different positions.</em>
 </p>
@@ -74,7 +74,7 @@ Where:
 This model helps describe how signal strength decreases with distance.
 
 <p align="left">
-  <img src="Images/Path_Loss.png" width="650">
+  <img src="Images/Path_Loss.png" width="500">
   <br>
   <em>Figure 3: Estimated indoor path loss model derived from the collected RSSI measurements.</em>
 </p>
@@ -83,7 +83,7 @@ This model helps describe how signal strength decreases with distance.
 Using this equation, we can compare the predicted RSSI values with the measured RSSI values at different distances.
 
 <p align="left">
-  <img src="Images/RSSI_measured_and_predicted.png" width="650">
+  <img src="Images/RSSI_measured_and_predicted.png" width="500">
   <br>
   <em>Figure 4: Comparison between the measured RSSI values and the RSSI values predicted by the path loss model.</em>
 </p>
@@ -108,7 +108,7 @@ Where N is the number of selected sample points.
 The estimated AP position is shown in the figure below.
 
 <p align="left">
-  <img src="Images/Estimated_AP_Location.png" width="600">
+  <img src="Images/Estimated_AP_Location.png" width="500">
   <br>
   <em>Figure 5: Estimated Access Point location obtained using the WiMAP localization algorithm.</em>
 </p>
