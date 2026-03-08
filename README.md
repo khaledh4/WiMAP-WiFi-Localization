@@ -61,7 +61,7 @@ Each point represents a location where RSSI measurements were taken.
 
 # 3. Path Loss Model Estimation
 
-Using the collected RSSI data, a regression model was used to estimate the indoor path loss model.
+Using the collected RSSI data, a regression model was used to estimate the indoor path loss.
 
 RSSI = -2.48 (10 log10(d)) - 35.6
 
