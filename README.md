@@ -107,8 +107,8 @@ Where N is the number of selected sample points.
 
 The estimated AP position is shown in the figure below.
 
-<p align="center">
-  <img src="Images/Estimated_AP_Location.png" width="650">
+<p align="left">
+  <img src="Images/Estimated_AP_Location.png" width="600">
   <br>
   <em>Figure 5: Estimated Access Point location obtained using the WiMAP localization algorithm.</em>
 </p>
