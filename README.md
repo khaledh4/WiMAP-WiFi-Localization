@@ -63,7 +63,7 @@ Each point represents a location where RSSI measurements were taken.
 
 Using the collected RSSI data, a regression model was used to estimate the indoor path loss.
 
-$RSSI = -2.48 \cdot (10 \cdot \log_{10}(d)) - 35.6$
+$RSSI = -2.48 \cdot (10 \cdot \log_{10}(d)) - 35.6
 
 Where:
 
