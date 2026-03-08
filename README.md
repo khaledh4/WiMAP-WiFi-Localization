@@ -31,7 +31,7 @@ For each measurement point, the following parameters were recorded:
 - RSSI (Received Signal Strength Indicator)
 - Data transfer rate (Mbps)
 - Distance from the Access Point (meters)
-- \(10 \times \log_{10}(d)\) used in the path-loss calculation
+- $10 \cdot \log_{10}(d)$ used in the path-loss calculation
 
 <p align="left">
   <img src="Images/RSSI_Samples.png" width="500"/>
