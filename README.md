@@ -99,8 +99,8 @@ The WiMAP algorithm estimates the Access Point location using the following step
 
 Centroid calculation:
 
-x_AP = (Σ xi) / N  
-y_AP = (Σ yi) / N
+$$x_{AP} = \frac{\sum_{i=1}^{N} x_i}{N}$$
+$$y_{AP} = \frac{\sum_{i=1}^{N} y_i}{N}$$
 
 Where N is the number of selected sample points.
 
